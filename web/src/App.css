@@ -1,0 +1,65 @@
+:root {
+    --primary-color: #34CB79;
+    --title-color: #30116dd8;
+    --second-title-color: #110143;
+    --text-color: #6C6C80;
+    --green: #04D361;
+    --gray: #53535A;
+    --black-bg: rgb(28, 28, 32);
+    --white: #fefefe;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Roboto", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    color: var(--text-color);
+    background: var(--black-bg);
+    -webkit-font-smoothing: antialiased;
+}
+
+body, input, button {
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--title-color);
+    font-family: Ubuntu;
+}
+
+/* div.error {
+    position: fixed;
+    top: -500px;
+    right: 0;
+    width: 32%;
+    max-width: 310px;
+    min-height: 32vh;
+    border: #615197 1px solid;
+    margin: 8px 24px;
+    background: #ee3131;
+    border-radius: 12px;
+    text-align: center;
+    transition: all .3s;
+}
+
+div.error div.message-error {
+    font-size: 28px;
+    position: absolute;
+    top: 50%;
+    line-height: 48px;
+    color: #e8e1e1;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: bold;
+    transform: translateY(-50%);
+} */
